@@ -1,0 +1,40 @@
+.card{
+  width: 250px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 10px;
+}
+.card__body{
+  background-color: #616161;
+  width: 90%;
+  margin: 0 auto;
+  height: 70%;
+}
+.card h3{
+  color: white;
+  text-align: center;
+}
+.card__body img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__stats{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 8px;
+}
+
+.card__stats__type{
+  color: white;
+  background-color: coral;
+  padding: 5px;
+  display: block;
+  width: fit-content;
+  border-radius: 5px;
+}
